@@ -8,7 +8,7 @@ function calcularStock(cantidadDisponible, cantidadVendida, cantidadConsumida) {
       return "No hay suficiente stock";
     }
   }
-  //pedir al usuario que ingrese el código del articulo
+  //pedir al usuario que ingrese el código del producto
   function obtenerNumeroIngresado(mensaje) {
     let numero = parseInt(prompt(mensaje));
   
